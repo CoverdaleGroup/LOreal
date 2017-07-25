@@ -27,7 +27,7 @@ Authors: Coverdale Group
 /******************/
 
 #content {
-    border-bottom:20px solid #636467;
+    border-bottom:20px solid #000;
     min-height:900px;
     padding-bottom:60px;
 /* here’s some test stuff*/
@@ -48,7 +48,7 @@ Authors: Coverdale Group
 }
 
 .header-navigation {
-    height: 50px;
+    height: 20px;
     background-color: #000;
 }
 
@@ -345,6 +345,20 @@ input, button, select, textarea {
 .panel-category-list ul li .well {
     height: 245px;
 }
+
+.panel-category-list ul li a {
+
+padding: 0px;
+}
+
+.panel-category-list ul li a img{
+
+max-height: 245px; 
+}
+
+.panel-default {
+	border-color: #fff;
+	}
 
 .navbar-fixed-bottom {
     position: relative;
