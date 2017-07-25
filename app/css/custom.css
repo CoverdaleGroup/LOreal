@@ -1,10 +1,10 @@
 /*
 Static file for Theme changes
-Theme name: ADI - Farmers Mutual Hail
+Theme name: L'Oreal
 Version: 1.0
 Template: Base
-Created: 10/14/16
-Last Updated: 10/14/16
+Created: 7/25/17
+Last Updated:  7/25/17
 Authors: Coverdale Group
 */
 
@@ -30,6 +30,7 @@ Authors: Coverdale Group
     border-bottom:20px solid #636467;
     min-height:900px;
     padding-bottom:60px;
+/* here’s some test stuff*/
 }
 
 @media (max-width:767px) {
@@ -47,8 +48,8 @@ Authors: Coverdale Group
 }
 
 .header-navigation {
-    height: 30px;
-    background-color: #636467;
+    height: 50px;
+    background-color: #000;
 }
 
 .header-navigation ul {
@@ -80,9 +81,10 @@ Authors: Coverdale Group
 
 .category-navigation .navbar .container .navbar-nav.pull-right li a,
 .category-navigation .navbar .container-view .navbar-nav.pull-right li a {
-    padding:20px;
+    padding:12px;
     color:#636467;
 }
+
 
 .category-navigation .navbar .container .navbar-nav.pull-right li ul li a,
 .category-navigation .navbar .container-view .navbar-nav.pull-right li ul li a {
@@ -226,7 +228,7 @@ body a {
 
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -234,8 +236,12 @@ body {
     font-weight: bold;
 }
 
+body a {
+	font-family: 'Montserrat', sans-serif;
+	}
+
 input, button, select, textarea {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .btn-info {
@@ -259,6 +265,9 @@ input, button, select, textarea {
     color: #ffffff;
 }
 
+.navbar-default {
+	background-color: #f0f0f0;
+	}
 .navbar-default .navbar-nav > li > a {
     color: #606060;
 }
