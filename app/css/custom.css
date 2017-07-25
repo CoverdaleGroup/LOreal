@@ -48,7 +48,7 @@ Authors: Coverdale Group
 }
 
 .header-navigation {
-    height: 20px;
+    height: 30px;
     background-color: #000;
 }
 
@@ -258,7 +258,8 @@ input, button, select, textarea {
 
 
 .jumbotron {
-    margin:15px;
+    margin:0px;
+	padding: 0px;
 }
 
 .container .navbar-nav li.active > a {
@@ -346,6 +347,10 @@ input, button, select, textarea {
     height: 245px;
 }
 
+.panel-category-list .well {
+	border-color: #fff;
+	}
+
 .panel-category-list ul li a {
 
 padding: 0px;
@@ -364,3 +369,7 @@ max-height: 245px;
     position: relative;
     margin-bottom: 15px;
 }
+
+.order-cloud .form-signin {
+	background: rgba(0, 0, 0, 0.15) none repeat scroll 0 0;
+	}
